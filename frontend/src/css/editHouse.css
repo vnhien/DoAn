@@ -1,0 +1,70 @@
+.create-form-container {
+  min-height: 118vh;
+  width: 96%;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  background-color: #ffffff;
+  padding-bottom: 24px;
+}
+.create-form-container .navigator.row {
+  margin-left: 32px;
+  margin-top: 8px;
+  margin-bottom: 48px;
+}
+.create-form-container .navigator.row a:hover {
+  text-decoration: none;
+}
+.create-form-container .navigator.row p {
+  margin-top: 2px;
+  margin-bottom: 0;
+  color: #00897b;
+  cursor: default;
+  user-select: none;
+}
+.create-form-container .row {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 16px;
+  align-items: center;
+}
+.create-form-container .row img {
+  margin-top: 12px;
+  max-width: 100%;
+  height: auto;
+}
+.create-container {
+  min-width: 880px;
+}
+.create-heading {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 64px;
+}
+#image:hover {
+  cursor: pointer;
+}
+.row .col-2 {
+  min-width: 160px;
+}
+.imageInput {
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 12px;
+}
+.create-form-container .row.imageInput-container {
+  margin-top: 24px;
+}
+.error {
+  border: 1px solid red;
+  border-radius: 5px;
+}
+.failed-notifi {
+  color: red;
+  font-size: 14px;
+}
+.row.error-notifi {
+  margin-top: 5px;
+  align-items: center;
+}

@@ -1,0 +1,45 @@
+.modal-dialog.addroom{
+    min-width: 1150px;
+    vertical-align: middle;
+    top: 20px;
+
+}
+.modal-body.addroom{
+    height: 75vh !important;
+
+}
+.modalAddApply, .modalAddCancel{
+    top: 30vh;
+}
+.addroom .row{
+    min-height: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+#image:hover{
+    cursor: pointer;
+}
+.imageInput{
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+}
+.create-form-container .row.imageInput-container{
+    margin-top: 24px;
+}
+.imageInput input{
+    margin-bottom: 10px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

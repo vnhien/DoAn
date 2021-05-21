@@ -1,0 +1,62 @@
+.modal-dialog{
+    /* max-width: none !important; */
+    overflow-y: initial !important
+}
+.modal-body{
+    overflow-y: auto;
+}
+.modal-body.list-room{
+    height: 80vh !important;
+}
+.modal-backdrop
+{
+    opacity: 0.3 !important;
+}
+body.modal-open{
+    padding-right: 0 ;
+}
+.modal-dialog.list-room{
+    min-width: 1150px;
+}
+.modal-dialog.list-room .modal-body{
+    background-color: #e6eff7;
+}
+.list-room{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.room-search-bar{
+    width: 96%;
+    height: 120px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    border-radius: 1px;
+    padding-bottom: 32px;
+}
+.room-search-bar .row{
+    margin-left: 8px;
+}
+.list-room .paging{
+    margin-bottom: 24px;
+}
+.btn-add.addroom{
+    margin-top: 32px;
+    margin-bottom: -10px;
+}
+.room-des{
+    white-space:nowrap;
+    overflow:hidden;
+    max-width: 340px;
+    text-overflow: ellipsis;
+}
+.room-owner-option{
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+.btn-detail.btn-detailroom:hover{
+    background: #2e3a77;
+    border: solid 1px #2e3a77;
+    color: white;
+}
